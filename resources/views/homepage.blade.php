@@ -8,11 +8,11 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="row row-cols-1 row-cols-md-5 g-4">
 			@foreach($show as $a)
   <div class="col">
     <div class="card shadow-lg">
-      <img src="{{asset('uploads/Product')}}/{{($a->product_image)}}" class="card-img-top" alt="..." title="{{$a->product_name}}" height="300">
+      <img src="{{asset('uploads/Product')}}/{{($a->product_image)}}" class="card-img-top" alt="..." title="{{$a->product_name}}" height="200">
       <div class="card-body">
         <h5 class="card-title">{{$a->product_name}}</h5>
         
