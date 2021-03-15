@@ -14,7 +14,7 @@
 			@endif
 			
 		</div>
-	   <form method="post" enctype="multipart/form-data" action="">
+	   <form method="post" enctype="multipart/form-data" action="{{route('updateproduct',$product->id)}}">
 	   	@csrf
 	   		
 	   	<div class="col-md-6">
